@@ -5,23 +5,60 @@
         .ytlogo {
             height: 80px;
             margin-left: 40px;
-            margin-block: -40px;
+            margin-block: -20px;
+            cursor: pointer;
         }
 
-        .dots {
-            width: 20px;
-            height: 1px;
-            background-color: white;
-            border-radius: 90px;
-            margin-bottom: 5px;
-            color: white;
-
+        .wrap {
+            position: absolute;
+            top: 3.8%;
+            left: 5%;
+            transform: translate(-50%, -50%);
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-top: 10px;
         }
+
+        .menu {
+            width: 18px;
+            height:1px;
+            background: white;
+            margin: 6px 0;
+        }
+
+        .search {
+            position: absolute;
+            width: 700px;
+            top: 1%;
+            left: 25%;
+            background-color: rgb(28, 28, 28);
+            color: rgb(70, 70, 70);
+            cursor: pointer;
+            padding-left: 20px;
+            padding-right: 10px;
+            padding-bottom: 5px;
+            padding-top: 10px;
+            border-style: solid;
+            border-width: 1px;
+            border-color: rgb(70, 70, 70);
+            border-radius: 20px;
+            text-align: left;
+            font-family: Arial;
+            font-size: medium;
+        }
+
+
     </style>
 
-    <div class="dots"></div>
-    <div class="dots"></div>
-    <div class="dots"></div>
+    <div class="wrap">
+        <div class="menu"></div>
+        <div class="menu"></div>
+        <div class="menu"></div>
+    </div>
+
+    <button class="search">Search</button>
+   
     <img src="Images/YouTube-White-Full-Color-Logo.wine.png" class="ytlogo" />
 
 </body>
