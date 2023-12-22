@@ -1,5 +1,6 @@
 
 .ytlogo {
+    top: 3.5%;
     height: 80px;
     margin-left: 40px;
     margin-block: -20px;
@@ -53,4 +54,32 @@
     text-align: left;
     font-family: Arial;
     font-size: medium;
+}
+
+.Tags {
+    width: 88px;
+    color: white;
+    height: 28px;
+    margin-left: 6px;
+    margin-right:6px;
+    background-color: rgb(34, 34, 34);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    text-align:  center;
+    border-radius:8px;
+    cursor: pointer;
+    border: none;
+    font-size: medium;
+}
+
+
+.maintag {
+    position: absolute;
+    width: 100%;
+    top: 11%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
 }
