@@ -72,6 +72,11 @@
     cursor: pointer;
     border: none;
     font-size: medium;
+    transition: opacity 1s;
+}
+
+.Tags:hover {
+    opacity: 0.51;
 }
 
 
@@ -82,4 +87,28 @@
     left: 70%;
     transform: translate(-50%, -50%);
     cursor: pointer;
+}
+
+.look {
+
+    position: absolute;
+    background-color: rgb(12, 12, 12);
+    border-style: solid;
+    border-color: rgb(70, 70, 70);
+    height: 39.7px;
+    width: 60px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    bottom: 93.8%;
+    left: 66.6%;
+    cursor: pointer;
+}
+
+.searchlogo {
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    left: 67.9%;
+    bottom: 95%;
+cursor: pointer;
 }
