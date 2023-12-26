@@ -1,6 +1,7 @@
 
 .ytlogo {
-    top: 3.5%;
+    position: absolute;
+    top: 0.9%;
     height: 80px;
     margin-left: 40px;
     margin-block: -20px;
@@ -29,6 +30,8 @@
     }
 
 .menu {
+    
+    top: 20%;
     width: 18px;
     height: 1px;
     background: white;
@@ -72,11 +75,11 @@
     cursor: pointer;
     border: none;
     font-size: medium;
-    transition: opacity 1s;
+    transition: background-color 0.15s;
 }
 
 .Tags:hover {
-    opacity: 0.51;
+    background-color:rgb(70, 70, 70);
 }
 
 
@@ -92,9 +95,9 @@
 .look {
 
     position: absolute;
-    background-color: rgb(70, 70, 70);
+    background-color: rgb(34, 34, 34);
     border-style: solid;
-    border-color: rgb(70, 70, 70);
+    border-color: rgb(34, 34, 34);
     height: 39.7px;
     width: 60px;
     border-top-right-radius: 20px;
@@ -119,10 +122,14 @@ cursor: pointer;
     bottom: 93.8%;
     border-radius: 50px;
     border: none;
-    background-color:rgb(70, 70, 70); 
+    background-color:rgb(34, 34, 34); 
     height: 40px;
     width: 40px;
+    cursor: pointer;
+}
 
+.voice:hover {
+    background-color:rgb(70, 70, 70);
 }
 
 .microphone {
@@ -131,10 +138,17 @@ cursor: pointer;
     bottom: 95.1%;
     height: 18px;
     width: 18px;
-    cursor: pointer;
-
 }
 
 .microphone:hover {
     
 }
+
+
+
+.hometab:hover {
+
+    background-color:rgb(70, 70, 70);
+
+}
+
